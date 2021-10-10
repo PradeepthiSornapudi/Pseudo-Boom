@@ -271,6 +271,18 @@ color: #17c0eb
   width: 50%;
   padding: 30px;
 }
+@media(max-width:750px){
+  .wrap-about{
+    display: block;
+    padding: 0;
+  }
+  .wrap-about .image{
+    width: 100%;
+  }
+  .wrap-about .content{
+    width: 100%;
+  }
+}
 .footer .container123{
 	max-width: 1170px;
 	margin:auto;
