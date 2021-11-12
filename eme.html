@@ -4,12 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMIT Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Appointment Form</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style2.css">
 </head>
 
 <body>
-
+  <nav class="navbar">
+    <div class="logo">Psuedo Boom</div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a class="active" href="eme.html">Immediate Admit</a></li>
+      <li><a href="query.html">Query</a></li>
+      <li><a href="app.html">Appointment</a></li>
+    </ul>
+  </nav>
     <div class="wrapper">
         <div class="title">
             <h2>EMERGENCY ADMIT FORM</h2>
@@ -41,7 +57,7 @@
             </div>
             <div class="inputfield">
                 <label>Case</label>
-                <div class="custom_select1">
+                <div class="custom_select">
                     <select>
                         <option value="">Select</option>
                         <option value="male">Accident</option>
@@ -52,7 +68,7 @@
             </div>
             <div class="inputfield">
                 <label>Damage of</label>
-                <div class="custom_select2">
+                <div class="custom_select">
                     <select>
                         <option value="">Select</option>
                         <option value="male">brain</option>
@@ -80,7 +96,46 @@
             </div>
         </div>
     </div>
-
+    
+    <footer class="footer">
+      <div class="container123">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Psuedo Boom</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Immediate form Policy</a></li>
+              <li><a href="#">Query</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Privacy</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
 </body>
 
 </html>
